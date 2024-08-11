@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOTV - Streaming</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>JOTV</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Live Channels</a></li>
+                <li><a href="#">On Demand</a></li>
+                <li><a href="#">Subscribe</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Watch Your Favorite Shows Live</h2>
+                <p>Join the JOTV family and never miss a moment!</p>
+                <button>Start Watching</button>
+            </div>
+        </section>
+
+        <!-- Live Stream Section -->
+<section class="live-stream">
+    <h3>Live Stream</h3>
+    <div class="video-container">
+        <iframe 
+            src="https://livepush.io/embed/emNfk3cy3ofsyPHl" 
+            width="100%" 
+            height="500px" 
+            frameborder="0" 
+            allow="autoplay; encrypted-media" 
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+<!-- End of Live Stream Section -->
+    <!-- Other sections -->
+
+    <!-- Contact Us Section -->
+    <section class="contact-us">
+        <h3>Contact Us</h3>
+        <p>If you have any questions or need assistance, please reach out to us:</p>
+        <ul>
+            <li><strong>Contact Person:</strong> T. Michael</li>
+            <li><strong>Phone:</strong> <a href="tel:+919942960305">9942960305</a></li>
+            <li><strong>Channel:</strong> Local Channel</li>
+            <li><strong>Advertisement Contact:</strong> Use the same number for ads inquiries.</li>
+            <li><strong>Address:</strong> Chinnupatti</li>
+        </ul>
+        <button id="showMap">View Location on Map</button>
+        <div id="map" class="hidden">Map placeholder (Integration can be done using Google Maps API)</div>
+    </section>
+    <!-- End of Contact Us Section -->
+
+    <!-- Other sections -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 JOTV. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
