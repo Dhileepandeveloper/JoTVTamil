@@ -1,0 +1,23 @@
+*{box-sizing:border-box}body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Helvetica,Arial,sans-serif;margin:0;padding:0;background:#f7f7fb;color:#222}
+header{background:#fff;border-bottom:1px solid #e5e5ef;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0}
+header h1{margin:0;font-size:20px}
+header nav a, header nav button{margin-left:12px;text-decoration:none;background:none;border:none;padding:8px 10px;border-radius:8px;cursor:pointer}
+header nav a:hover, header nav button:hover{background:#efeff7}
+main{max-width:1000px;margin:24px auto;padding:0 16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.card{background:#fff;border:1px solid #e5e5ef;border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.card img{width:100%;height:160px;object-fit:cover}
+.card .p{padding:12px}
+.price{font-weight:700;margin:8px 0}
+.btn{background:#1a73e8;color:#fff;border:none;padding:10px 12px;border-radius:8px;cursor:pointer}
+.btn:hover{filter:brightness(0.95)}
+.details{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.details img{width:100%;border-radius:12px;border:1px solid #e5e5ef}
+label{display:block;margin:8px 0}
+input{width:100%;padding:10px;border:1px solid #d9d9e5;border-radius:8px}
+form{background:#fff;border:1px solid #e5e5ef;border-radius:12px;padding:16px;max-width:420px}
+#cart-items .row{display:flex;align-items:center;justify-content:space-between;background:#fff;border:1px solid #e5e5ef;border-radius:12px;padding:10px;margin-bottom:10px}
+.qty{width:60px}
+.totals{margin:16px 0}
+footer{padding:24px 16px;color:#666;text-align:center}
+.notice{background:#fff3cd;border:1px solid #ffeeba;padding:10px;border-radius:8px;margin-bottom:12px}

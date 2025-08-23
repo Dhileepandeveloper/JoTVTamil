@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Cart</title>
+  <link rel="stylesheet" href="/css/style.css"/>
+</head>
+<body>
+  <header>
+    <h1><a href="/">Simple E-commerce Store</a></h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/cart.html">Cart (<span id="cart-count">0</span>)</a>
+      <a href="/orders.html">My Orders</a>
+      <a href="/login.html" id="login-link">Login</a>
+      <a href="/register.html" id="register-link">Register</a>
+      <button id="logout-btn" style="display:none">Logout</button>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <div class="totals">
+      <strong>Total: $<span id="total">0.00</span></strong>
+    </div>
+    <button id="checkout-btn">Checkout</button>
+  </main>
+
+  <footer>© <span id="year"></span> Simple E-commerce Store</footer>
+
+  <script src="/js/cart.js"></script>
+  <script src="/js/api.js"></script>
+  <script src="/js/cartPage.js"></script>
+</body>
+</html>
